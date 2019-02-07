@@ -1,0 +1,8 @@
+backend: tensorflow
+class_name: Sequential
+config:
+  layers:
+  - class_name: ImageRescale
+    config: {method: 2, name: image_rescale_1, scale: 4, trainable: false}
+  name: sequential_1
+keras_version: 2.2.4
